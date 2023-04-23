@@ -14,6 +14,8 @@ const count = ref(0)
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
+      看到就代表自动部署成功
+
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
     </p>
